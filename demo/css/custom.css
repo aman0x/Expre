@@ -1131,14 +1131,47 @@ footer .social-footer li:hover a {
 .featured .hero-feature{
 	border:0px ;
 }
-
-.featured .thumbnail > span {
-    color: #fff;
-    font-weight: bold;
-    left: 45%;
-    position: absolute;
-    top: -55%;
+.featured .thumbnail{
+	padding: 0px;
 }
+.featured .thumbnail > span {
+	font-size: 18px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  left: 40%;
+  position: absolute;
+  top: 45%;
+}
+
+.location-hover {
+		width: 295px;
+		height: 315px;
+		position: absolute;
+		
+		top: 5px;
+		left: 25px;
+		opacity: 0;
+		overflow: visible;
+		border: 5px solid rgba(0,0,0,0.9);
+		box-sizing: border-box;
+		transition: all 0.4s ease-in-out;
+	}
+	/* overflow: hidden; 
+.location-hover:hover {
+   opacity: 1;
+   border:100px solid rgba(0,0,0,0.7);
+}
+.location-hover:hover button {
+   opacity:1;
+   transition-delay: 0.3s;
+}*/
+
 .orhr span{
   background: #f0f6f8 none repeat scroll 0 0;
   border-radius: 16px;
