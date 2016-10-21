@@ -532,6 +532,7 @@ section {
 	background-size: cover;
 	-webkit-transition: background-image 0.6s linear 0.3s;
 	transition: background-image 0.6s linear 0.3s;
+	height: 380px;
 }
 #app-demo h3{
 	color: #fff;
@@ -539,7 +540,12 @@ section {
 #app-demo h6{
 	color: #fff;
 }
-
+.Discover-and-instant{
+	font-size: 20px;
+  font-stretch: normal;
+  line-height: 1.45;
+  color: #ffffff;
+}
 .owl-twitter i.icon {
 	font-size: 36px;
 	margin-bottom: 60px;
