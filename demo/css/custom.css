@@ -8,7 +8,9 @@
 .margintop30-m15{
 	margin-top: 30px;
 }
-
+.marginbottom15{
+	margin-bottom: 15px;
+}
 body {
 	background-color: #F0F6F8; 
 	font-family: nunito;
@@ -236,8 +238,24 @@ nav.navbar-fixed-top {
 	background: #bbb;
 }
 /* Buttons */
+.btn-yellow-white{
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ffb900;
+	border-radius: 3px;
+	color: #ffb900;
+	margin-top: 5px;
+	padding: 8px;
+}
+.btn-yellow-white:hover{
+	background: #ffb900 none repeat scroll 0 0;
+	border: 1px solid #ffb900;
+	color: #fff;
+}
 .btn.btn-yellow {
-    background: #ffb900 none repeat scroll 0 0;
+	background: #ffb900 none repeat scroll 0 0;
+}
+.btn.btn-yellow:hover{
+	background: #f2ac15 none repeat scroll 0 0;
 }
 .btn {
   background: transparent none repeat scroll 0 0;
@@ -354,10 +372,29 @@ section {
 	border-bottom: 80px solid transparent;
 	border-left: 30px solid white;
 }
-
+.intro-block:hover  {
+-webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 999;
+}
+.hover-intro-block{
+	-webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 999;
+}
+.intro-block {
+	
+	box-shadow: 0px 1px 1px #9f9f9f;
+	}
+.intro-block .caption{
+	background: #fff;
+	padding: 10px;
+	text-align: center;
+}
 .intro-tables {
-	top: -130px;
-	position: relative;
+	display: block;
+  position: relative;
+  top: -100px;
 }
 
 .intro-table {
@@ -368,29 +405,16 @@ section {
 }
 
 .intro-table-second {
-	background-image: url('../img/location/india.png');
-}
-
-.intro-table-second:hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
 	background-image: url('../img/location/newyork.png');
 }
+
+
 
 .intro-table-hover h4 {
 	-webkit-transform: translateY(170px);
 	transform: translateY(170px);
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
-}
-.intro-table-first:hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/location/newyork.png');
-}.intro-table-third:hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/location/newyork.png');
 }
 .intro-table-first {
 	background-image: url('../img/location/india.png');
@@ -437,7 +461,7 @@ section {
 	position: relative;
 	width: 100%;
 	height: 300px;
-	margin: 20px 0;
+	margin:  0;
 }
 
 .intro-tables .intro-table .heading {
@@ -1125,6 +1149,10 @@ footer .social-footer li:hover a {
 	border-bottom: 2px solid #FFB900;
 	width: 70px;
 }
+#featured{
+	background: #f0f6f8 none repeat scroll 0 0;
+	padding: 0 0 70px !important;
+}
 .featured .thumbnail{
 	border:0px ;
 }
@@ -1150,27 +1178,29 @@ footer .social-footer li:hover a {
 }
 
 .location-hover {
-		width: 295px;
-		height: 315px;
-		position: absolute;
-		
-		top: 5px;
-		left: 25px;
-		opacity: 0;
-		overflow: visible;
-		border: 5px solid rgba(0,0,0,0.9);
-		box-sizing: border-box;
-		transition: all 0.4s ease-in-out;
+		border: 5px solid rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
+    height: 280px;
+    left: 15px;
+    opacity: 0;
+    overflow: visible;
+    position: absolute;
+    top: 0px;
+    transition: all 0.4s ease-in-out 0s;
+    width: 265px;
 	}
-	/* overflow: hidden; 
+	
 .location-hover:hover {
    opacity: 1;
-   border:100px solid rgba(0,0,0,0.7);
+   border:133px solid rgba(0,0,0,0.7);
 }
 .location-hover:hover button {
-   opacity:1;
-   transition-delay: 0.3s;
-}*/
+    opacity: 1;
+    transition-delay: 0.3s;
+    position: absolute;
+    left: -70px;
+    top: 45px;
+}
 
 .orhr span{
   background: #f0f6f8 none repeat scroll 0 0;
