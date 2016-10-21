@@ -165,3 +165,8 @@ $(".nav a").on("click", function(){
 	$(".nav").find(".active").removeClass("active");
 	$(this).parent().addClass("active");
 }); */
+
+$(".intro-block").mouseover(function(){
+	$(".intro-block").removeClass('hover-intro-block');
+	$(this).addClass('hover-intro-block');
+})
