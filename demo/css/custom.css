@@ -381,9 +381,10 @@ section {
 	-webkit-transform: scale(1.1);
   transform: scale(1.1);
   z-index: 999;
+      
 }
 .intro-block {
-	
+	transition: all .2s ease-in-out;
 	box-shadow: 0px 1px 1px #9f9f9f;
 	}
 .intro-block .caption{
@@ -394,7 +395,8 @@ section {
 .intro-tables {
 	display: block;
   position: relative;
-  top: -100px;
+  top: -180px ;
+
 }
 
 .intro-table {
@@ -446,6 +448,7 @@ section {
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
+
 }
 
 .intro-table-hover .hide-hover {
@@ -1099,10 +1102,11 @@ footer .social-footer li:hover a {
     .navbar ul{
     	box-shadow: 0px 0px 0px;
     }
+
 }
 .white.typed {
    font-size: 19px;
-    margin: 152px 0 50px;
+    
   
 }
 .main-input {
@@ -1151,7 +1155,10 @@ footer .social-footer li:hover a {
 }
 #featured{
 	background: #f0f6f8 none repeat scroll 0 0;
-	padding: 0 0 70px !important;
+  padding: 0px 0 0px !important;
+  margin-top: 0px;
+  position: relative;
+  top: -70px;
 }
 .featured .thumbnail{
 	border:0px ;
