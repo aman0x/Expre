@@ -132,6 +132,8 @@ header {
 
 }
 
+
+
 header .table {
 	display: table;
 	height: 100%;
@@ -1226,4 +1228,109 @@ p.orhr{
 }
 .shade-blue{
 	color: #0f334b;
+}
+/* --------------------login page  ---------------------*/
+.experience-header {
+  background-image: url("../img/experience.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height:370px;
+  }
+
+
+div.caption p.normal-text {
+	font-family: Nunito;
+  font-size: 13px !important;
+  font-weight: bold;
+  padding-top: 15px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.06;
+  letter-spacing: 1.1px;
+}
+p.header-heading{
+	font-family: Nunito;
+	position: relative;
+  padding-top: 155px;
+  text-align:center;
+  font-weight:600;
+  font-size: 2.5rem;
+  color:#fff;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+
+
+	
+.omb_login .omb_socialButtons a {
+	color: white; 
+	margin: 10px 0px;
+	opacity:0.9;
+}
+.omb_login .omb_socialButtons a i{font-size: 20px;
+    padding-right: 25px;
+    padding-top: 5px;
+    width: 45px}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+.login_form{
+	box-shadow: 1px 1px 1px #d3d3d3;
+	padding: 20px;
+	display: table;
+}
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}			
+.white-bg-boxshadow{
+	background-color: #fff ;
+	box-shadow: 1px 1px 1px #d3d3d3; 
+}
+
+.about-us-content {
+	
+	font-size: 14px;
+	color: #33394e;
+}
+.about-us-content .about-us-text{
+	
+	padding: 20px;
+}
+.about-us-content .about-us-text h6{
+	color: #ffba00;
+	font-weight: bold;
+	margin: 0px;
+}
+.about-us-content .about-us-text p{
+	
+	font-size: 14px;
+}
+.font-color-yellow{
+	color: #ffba00;
 }
