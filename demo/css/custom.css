@@ -133,7 +133,7 @@ header {
 	color: white;
 	background: rgba(28, 36, 65, 0.93);
 	background: url('../img/header.png' );
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat; 
 
 }
