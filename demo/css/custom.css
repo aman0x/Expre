@@ -1296,8 +1296,8 @@ p.header-heading{
 	color: #ffba00;
 }
 .nav-active-logo img {
-    margin-top: 7px;
-    max-width: 130px;
+  width: 60%;
+  max-width:100%;
 }
 .support-list-block img{
 	width: 100%;
