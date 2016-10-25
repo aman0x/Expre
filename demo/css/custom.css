@@ -263,8 +263,7 @@ nav.navbar-fixed-top {
 	background: #f2ac15 none repeat scroll 0 0;
 }
 .btn {
-  background: transparent none repeat scroll 0 0;
-  border: 1px solid transparent;
+  
   border-radius: 2px;
   color: white;
   display: inline-block;
@@ -323,7 +322,15 @@ nav.navbar-fixed-top {
 	border-color: #bbb;
 	background: #bbb;
 }
-
+.btn.btn-save{
+    background-color: #00d481;
+}
+.btn.btn-back{
+     background-color: #8ea7b8;
+}
+.custom-button-width{
+	padding: 10px 25px !important;
+}
 /* Blink Cursor */
 
 .blink {
@@ -1328,4 +1335,18 @@ p.header-heading{
 	border-bottom: 1px solid #d3d3d3;
 	height: 2px;
 	
+}
+.extra-small-font{
+	font-size: 13px;
+	color:#8ea7b8;
+	margin-top: 0px;
+}
+.image-upload-block {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  border: dotted 2px #0f334b;
+}
+.image-upload-block h2{
+  padding-left: 30px;
 }
