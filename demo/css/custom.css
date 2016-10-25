@@ -663,17 +663,25 @@ footer .social-footer li:hover a {
   border:none;
 
 }
-.omb_loginForm .input-group input[type="radio"], input[type="checkbox"]{
-	-webkit-appearance: none;
-	background-color: #fafafa;
-	border: 1px solid #cacece;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
-	padding: 9px;
-	border-radius: 3px;
-	display: inline-block;
-	position: relative;
+.omb_loginForm .input-group textarea.form-control{
+	width: 100%;
+  height: 100px;
+  border-radius: 4px;
+  background-color: #f0f6f8;
+  border:none;
+
+}
+.omb_loginForm .input-group a.btn{
+	padding: 10px 15px;
+}
+.omb_loginForm .input-group  input[type="checkbox"]{
+	
 	margin-top: 15px;
 }
+.omb_loginForm .input-group input[type="radio"] {
+    font-size: 22px;
+    margin: 20px 10px;
+}    
 
 /* Popup */
 .modal {
@@ -1301,4 +1309,23 @@ p.header-heading{
 	margin: 0px;
 	font-size: 14px;
 	margin-top: 10px;
+}
+.user-form-active-link{
+	background-color: #0f334b !important;
+	color: #fff !important;
+}
+.user-form-link:hover{
+	background-color: #0f334b !important;
+	color: #fff !important;
+}
+.user-form-link{
+	border-radius: 4px;
+  background-color: #f0f6f8;
+  color: #8ea7b8;
+  padding: 10px  30px;
+}
+.border-hr-hor{
+	border-bottom: 1px solid #d3d3d3;
+	height: 2px;
+	
 }
