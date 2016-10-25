@@ -5,6 +5,9 @@
 .padding0{
 	padding:0px !important;	
 }
+.paddingleft0{
+	padding-left:0px !important;	
+}
 .marginleft15{
 	margin-left: 15px;
 }
@@ -327,6 +330,9 @@ nav.navbar-fixed-top {
 }
 .btn.btn-back{
      background-color: #8ea7b8;
+}
+.btn.btn-action {
+  background-color: #00bbc4;
 }
 .custom-button-width{
 	padding: 10px 25px !important;
@@ -1291,7 +1297,7 @@ p.header-heading{
 }
 .nav-active-logo img {
     margin-top: 7px;
-    max-width: 150px;
+    max-width: 130px;
 }
 .support-list-block img{
 	width: 100%;
