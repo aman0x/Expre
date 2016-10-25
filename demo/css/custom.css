@@ -119,7 +119,7 @@ ul.white-list li {
 ul.white-list li:before {
 	content: ' ';
 	position: relative;
-	top: -3px;
+	top: -3px; 
 	display: inline-block;
 	width: 6px;
 	height: 6px;
@@ -133,7 +133,7 @@ header {
 	color: white;
 	background: rgba(28, 36, 65, 0.93);
 	background: url('../img/header.png' );
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat; 
 
 }
@@ -1296,7 +1296,6 @@ p.header-heading{
 	color: #ffba00;
 }
 .nav-active-logo img {
-  width: 60%;
   max-width:100%;
 }
 .support-list-block img{
