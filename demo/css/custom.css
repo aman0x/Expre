@@ -5,6 +5,9 @@
 .padding0{
 	padding:0px !important;	
 }
+.paddingbottom10{
+	padding-bottom: 10px;
+}
 .paddingleft0{
 	padding-left:0px !important;	
 }
@@ -16,6 +19,12 @@
 }
 .marginbottom15{
 	margin-bottom: 15px;
+}
+.margintop15{
+	margin-top: 15px !important;
+}
+.table{
+	display: table;
 }
 body {
 	background-color: #F0F6F8; 
@@ -409,6 +418,13 @@ section {
 	background: #fff;
 	padding: 10px;
 	text-align: center;
+}
+.description .caption img{
+	width: 100px;
+}
+.description .caption h5{
+	color: #fff;
+
 }
 .intro-tables {
 	display: block;
@@ -1186,6 +1202,12 @@ p.orhr{
   background-position: center;
   min-height:370px;
   }
+  .experience-header.description {
+  background-image: url("../img/description.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height:370px;
+  }
 /* --------------------login page  ---------------------*/
 .experience-header {
   background-image: url("../img/experience.png");
@@ -1295,6 +1317,9 @@ p.header-heading{
 .font-color-yellow{
 	color: #ffba00;
 }
+.font-color-slate{
+	color: #0f334b;
+}
 .nav-active-logo img {
   max-width:100%;
 }
@@ -1354,4 +1379,38 @@ p.header-heading{
 }
 .image-upload-block h2{
   padding-left: 30px;
+}
+/* --------------------description-page---------------------*/
+.description-section{
+	
+}
+.description-section .white-bg-boxshadow{
+	padding-bottom: 10px;
+}
+.description-info{	
+	padding: 10px;
+	padding-bottom: 0px;
+}
+.description-info p {
+	font-size: 14px;
+	color: #0f334b;
+	font-size: 14px;
+
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}	
+.des-photos .img-responsive {
+    margin: 5px auto !important;
+
 }
