@@ -1273,19 +1273,19 @@ footer .social-footer li:hover a {
 .location-hover {
 		border: 5px solid rgba(0, 0, 0, 0.9);
     box-sizing: border-box;
-    height: 240px;
+    height: 280px;
     left: 15px;
     opacity: 0;
     overflow: visible;
     position: absolute;
     top: 0px;
     transition: all 0.4s ease-in-out 0s;
-    width: 200px;
+    width: 265px;
 	}
 	
 .location-hover:hover {
    opacity: 1;
-   border:107px solid rgba(0,0,0,0.7);
+   border:133px solid rgba(0,0,0,0.7);
 }
 .location-hover:hover button {
     opacity: 1;
@@ -1353,6 +1353,30 @@ p.orhr{
 	.filter-box h5{
 		font-size: 15px;
 	}
+	.filter-page .location-hover {
+		border: 5px solid rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
+    height: 240px;
+    left: 15px;
+    opacity: 0;
+    overflow: visible;
+    position: absolute;
+    top: 0px;
+    transition: all 0.4s ease-in-out 0s;
+    width: 200px;
+	}
+	
+	.filter-page .location-hover:hover {
+   opacity: 1;
+   border:107px solid rgba(0,0,0,0.7);
+}
+	.filter-page .location-hover:hover button {
+    opacity: 1;
+    transition-delay: 0.3s;
+    position: absolute;
+    left: -70px;
+    top: 45px;
+}
 /* --------------------login page  ---------------------*/
 .experience-header {
   background-image: url("../img/experience.png");
