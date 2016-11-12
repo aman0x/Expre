@@ -17,6 +17,10 @@
 		<link rel="stylesheet" type="text/css" href="css/custom.css">
 		<!--font awsome css -->
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+
+		<link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
 		<body>
 			<div class="preloader">
 				<img src="img/loader.gif" alt="Preloader image">
@@ -55,15 +59,15 @@
 					<p class="normal-text">Join thousands more by creating unique experiences for others</p>
 				</div>
 			</div>
-			<section class="section  lightbule-bg">
+			<section class="section  lightbule-bg basic-section">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12  text-center white-bg login_form">
 							<div class="col-md-12 ">
-								<a class="btn btn-lg user-form-link user-form-active-link pull-left marginleft15" type="submit" href="basic.html">Basics</a>
-								<a class="btn btn-lg user-form-link pull-left marginleft15" type="submit" href="basic.html">Photos & Videos</a>
-								<a class="btn btn-lg user-form-link pull-left marginleft15" type="submit" href="basic.html">Schedule</a>
-								<a class="btn btn-lg user-form-link pull-left marginleft15" type="submit" href="basic.html">Profile</a>
+								<a class="btn btn-lg user-form-link user-form-active-link pull-left marginleft15 not-active" type="submit" >Basics</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15 not-active" type="submit" >Photos & Videos</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15 not-active" type="submit" >Schedule</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15 not-active" type="submit">Profile</a>
 							</div>
 						</div>
 						<div class="col-md-12 ">
@@ -77,31 +81,48 @@
 												<input type="text" class="form-control" name="title" placeholder="Title">
 											</div>
 											<div class="col-md-6 ">
-												<input type="text" class="form-control" name="experience-type" placeholder="Experience Type">
+												<select class="form-control" name="experience-type">
+													<option class="font-color-lightslate">Experience Type</option>
+													<option class="font-color-lightslate">Experience Type 1</option>
+													<option class="font-color-lightslate">Experience Type 2</option>
+												</select>
+												
 											</div>
 										</div>
 										
 										<div class="input-group col-md-12 col-xs-12">
 											<div class="col-md-3 col-xs-6">
-												<input type="text" class="form-control" name="country" placeholder="Country">
+												<select class="form-control" name="country" >
+													<option class="font-color-lightslate">Mumbai</option>
+												</select>
 											</div>
 											<div class="col-md-3 col-xs-6">
-												<input type="text" class="form-control" name="state" placeholder="State">
+												<select class="form-control" name="state" >
+													<option class="font-color-lightslate">Bihar</option>
+												</select>
+												
 											</div>
 											<div class="col-md-3 col-xs-6">
-												<input type="text" class="form-control" name="city" placeholder="City">
+												<select class="form-control" name="state" >
+													<option class="font-color-lightslate">Pune</option>
+												</select>
 											</div>
 										</div>
 
 										<div class="input-group col-md-12 col-xs-12">
 											<div class="col-md-3 col-xs-6">
-												<input type="text" class="form-control" name="min-people" placeholder="Min People">
+												<select class="form-control" name="min-people" >
+													<option class="font-color-lightslate">1</option>
+												</select>
 											</div>
 											<div class="col-md-3 col-xs-6">
-												<input type="text" class="form-control" name="max-people" placeholder="Max People">
+												<select class="form-control" name="max-people" >
+													<option class="font-color-lightslate">1</option>
+												</select>
+												
 											</div>
 											<div class="col-md-3 col-xs-6">
-												<input type="text" class="form-control" name="price-inr" placeholder="Price in INR">
+												<input type="text" class="form-control" name="price-inr" placeholder="Price in INR">	
 											</div>
 											<div class="col-md-3 col-xs-6 ">
 												<input type="radio" class="" name="username" > per person
@@ -113,10 +134,17 @@
 												<h6>Durations</h6>
 											</div>
 											<div class="col-md-3 col-xs-6">
-												<input type="text" class="form-control" name="duration-h" placeholder="Hours">
+												<select class="form-control" name="duration-h" >
+													<option class="font-color-lightslate">2</option>
+												</select>
+												
 											</div>
 											<div class="col-md-3 col-xs-6">
-												<input type="text" class="form-control" name="duration-m" placeholder="Minutes">
+
+												<select class="form-control" name="duration-m" >
+													<option class="font-color-lightslate">60</option>
+												</select>
+												
 											</div>
 											
 										</div>
@@ -159,7 +187,7 @@
 										</div>
 										<div class="input-group col-md-12 col-xs-12">
 											<div class="col-md-12 padding0">
-												<a class="btn btn-lg btn-yellow pull-left marginleft15" type="submit" href="upload-profile.html">NEXT</a>
+												<a class="btn btn-lg btn-yellow pull-left marginleft15 btn-next-profile" type="submit" >NEXT</a>
 											</div>
 										</div>
 										<!-- <span class="help-block">Password error</span> -->
@@ -167,6 +195,187 @@
 									</form>
 							</div>
 						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section  lightbule-bg photosprofile-page">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12  text-center white-bg login_form">
+							<div class="col-md-12 ">
+								<a class="btn btn-lg user-form-link  pull-left marginleft15" type="submit" href="basic.html">Basics</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15 user-form-active-link" type="submit" href="basic.html">Photos & Videos</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15" type="submit" href="basic.html">Schedule</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15" type="submit" href="basic.html">Profile</a>
+							</div>
+						</div>
+						<div class="col-md-12 ">
+						<span class="border-hr-hor"></span></div>
+						<div class="col-md-12  text-center white-bg login_form">
+							<div class="col-md-12 ">
+								<form class="omb_loginForm" action="" autocomplete="off" method="POST">
+									<div class="col-md-12 col-xs-12">
+										<div class="input-group col-md-12 col-xs-12 marginbottom15">
+											<div class="col-md-12 padding0 ">
+												<h6 class="pull-left">VIDEO</h6>
+											</div>
+											<div class="col-md-12 padding0 ">
+												<input type="text" class="form-control" name="video_link" placeholder="Link to Video (Youtube or vimeo) (optional)">
+											</div>
+											<div class="col-md-12 padding0 margintop15">
+												<input type="text" class="form-control" name="video_link" placeholder="Link to Video (Youtube or vimeo) (optional)">
+											</div>
+										</div>
+										<div class="col-md-12 padding0 ">
+												<h6 class="pull-left">PHOTOS</h6>
+										</div>
+										<div class="col-md-12 padding0 marginbottom15">
+												<h6 class="pull-left extra-small-font">Now make your listing beautiful!</h6>
+										</div>
+										<div class="col-md-12 padding0 marginbottom15 image-upload-block">
+												<h2 class="pull-left">+</h2>
+										</div>
+										<div class="col-md-12 padding0 marginbottom15 ">
+												<h6 class="pull-left  extra-small-font">Cover Photo</h6>
+										</div>
+										<div class="input-group col-md-12 col-xs-12">
+											<div class="col-md-6 text-left padding0">
+												<a type="button" class="btn btn-save  custom-button-width " >SAVE</a>
+												<a type="button" class="btn btn-back custom-button-width btn-prev-profile">BACK</a>
+												<a type="button" class="btn btn-yellow custom-button-width btn-next-profile" >NEXT</a>
+											</div>
+										</div>
+										<!-- <span class="help-block">Password error</span> -->
+									</div>	
+									</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section  lightbule-bg profile-view-page">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12  text-center white-bg login_form">
+							<div class="col-md-12 ">
+								<a class="btn btn-lg user-form-link  pull-left marginleft15" type="submit" >Basics</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15 " type="submit" >Photos & Videos</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15 user-form-active-link" type="submit" >Schedule</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15" type="submit" >Profile</a>
+							</div>
+						</div>
+						<div class="col-md-12 ">
+						<span class="border-hr-hor"></span></div>
+						<div class="col-md-12  text-center white-bg login_form">
+							<div class="col-md-12 ">
+								<form class="omb_loginForm" action="" autocomplete="off" method="POST">
+									<div class="input-group col-md-12 col-xs-12">
+										<div class="input-group col-md-12 col-xs-12">
+											<div class="col-md-6 col-xs-6">
+												<input type="text" class="form-control " name="datefilter" value="" placeholder="Choose Date">
+											</div>
+										</div>
+									</div>
+									<div class="input-group col-md-12 col-xs-12 ">
+										<div class="input-group col-md-12 col-xs-12">
+											<div class="col-md-3 col-xs-3">
+												<select type="text" class="form-control " name="datefilter"  placeholder="Start Time">
+													<option>12.00 pm</option>
+												</select>
+											</div>
+											<div class="col-md-3 col-xs-3">
+												<select type="text" class="form-control " name="datefilter"  placeholder="End Time">
+													<option>12.00 pm</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									
+									<div class="input-group col-md-12 col-xs-12 margintop15">
+										<div class="col-md-6 text-left ">
+											<a type="button" class="btn btn-save  custom-button-width " >SAVE</a>
+											<a type="button" class="btn btn-back custom-button-width btn-prev-profile">BACK</a>
+											<a type="button" class="btn btn-yellow custom-button-width btn-next-profile" >NEXT</a>
+										</div>
+									</div>
+										<!-- <span class="help-block">Password error</span> -->
+									</div>	
+									</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section  lightbule-bg profile-page">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12  text-center white-bg login_form">
+							<div class="col-md-12 ">
+								<a class="btn btn-lg user-form-link  pull-left marginleft15" type="submit" href="basic.html">Basics</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15" type="submit" href="basic.html">Photos & Videos</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15" type="submit" href="basic.html">Schedule</a>
+								<a class="btn btn-lg user-form-link pull-left marginleft15 user-form-active-link" type="submit" href="basic.html">Profile</a>
+							</div>
+						</div>
+						<div class="col-md-12 ">
+						<span class="border-hr-hor"></span></div>
+						<div class="col-md-12 col-xs-12  text-center white-bg login_form">
+							<div class="col-md-8 col-xs-12">
+								<form class="omb_loginForm" action="" autocomplete="off" method="POST">
+									<div class="col-md-12 col-xs-12">
+										<div class="input-group col-md-12 col-xs-12">
+											<div class="col-md-6 padding0">
+												<input type="text" class="form-control" name="Name" placeholder="Name">
+											</div>
+											<div class="col-md-6 ">
+												<input type="text" class="form-control" name="username" placeholder="Email Address">
+											</div>
+										</div>
+										<div class="input-group col-md-12 col-xs-12">
+											<div class="col-md-6 padding0">
+												<input type="text" class="form-control" name="username" placeholder="Contact Number">
+											</div>
+											<div class="col-md-6 marginbottom15 ">
+												<a type="button" class="btn btn-action custom-button-width pull-left">VERIFY NOW</a>
+											</div>
+										</div>
+										<div class="col-md-12  marginbottom15">
+												<h6 class="pull-left extra-small-font">To get texts for notifications we need to verify your contact number. It only takes a minute.</h6>
+										</div>
+										<div class="input-group col-md-12 col-xs-12">
+											<div class="col-md-12 paddingleft0" >
+												 <textarea type="text" class="form-control" name="username" placeholder="Share your story - who you are and what makes you special?"></textarea> 
+											</div>
+										</div>
+										<div class="input-group col-md-12 col-xs-12">
+											<div class="col-md-6 padding0">
+												<input type="text" class="form-control" name="username" placeholder="Location">
+											</div>
+											<div class="col-md-6 ">
+												<input type="text" class="form-control" name="username" placeholder="Language">
+											</div>
+										</div>
+										
+										<div class="input-group col-md-12 col-xs-12">
+											<div class="col-md-6 text-left padding0">
+												<a type="button" class="btn btn-back  custom-button-width btn-prev-profile" >BACK</a>
+												<a type="button" class="btn btn-yellow custom-button-width ">PUBLISH</a>
+											</div>
+										</div>
+										<!-- <span class="help-block">Password error</span> -->
+									</div>	
+									</form>
+							</div>
+							<div class="col-md-4 col-xs-12">
+								<div class="col-md-12 marginbottom15 text-center">
+									<img class="text-center"  src="img/user-logo.png">
+								</div>
+								<div class="col-md-12 marginbottom15 text-center">
+									<a type="button" class="btn btn-action custom-button-width text-center">UPLOAD</a>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</section>
@@ -185,57 +394,58 @@
 				</div>
 			</section>
 			<footer>
-				<div class="container">
-					<div class="row">
-						<div class=" col-md-3">
-							<div class="col-md-3 hidden-xs hidden-sm">
-								<img src="img/logo-active.png">
-								<!-- other tags go here -->
-							</div>
-						</div>
-						<div class="col-md-offset-1 col-md-8 footer-links">
-							<div class="col-md-4">
-								<ul>
-									<li>COMPANY</li>
-									<li><a>Home</a></li>
-									<li><a>Services</a></li>
-									<li><a>How we do it</a></li>
-								</ul>
-								<!-- other tags go here -->
-							</div>
-							<div class="col-md-4">
-								<ul>
-									<li>DISCOVER</li>
-									<li><a>Cysteine Hair Treatment</a></li>
-									<li><a>Moroccon Oil Hair Spa</a></li>
-									<li><a>Novalash Eyelash Extensions</a></li>
-								</ul>
-							</div>
-							<div class="col-md-4">
-								<ul>
-									<li>EXPERTS</li>
-									<li><a>Make-up by Celebrity Stylists</a></li>
-									<li><a>Exclusive Nail Services</a></li>
-									<li><a>Artists</a></li>
-								</ul>
-							</div>
-						</div>
+			<div class="container">
+        <div class="row">
+        	<div class=" col-md-3">
+            <div class="col-md-3 hidden-xs hidden-sm" >
+            		<img src="img/logo-active.png">
+                <!-- other tags go here -->
+            </div>
+          </div>  
+          <div class="col-md-offset-1 col-md-8 footer-links">
+            <div class="col-md-4">
+            	<ul>
+            		<li>COMPANY</li>
+            		<li><a>Home</a></li>
+            		<li><a>Services</a></li>
+            		<li><a>How we do it</a></li>
+            	</ul>
+                <!-- other tags go here -->
+            </div>
+            <div class="col-md-4">
+              <ul>
+            		<li>DISCOVER</li>
+            		<li><a>List an experience</a></li>
+            		<li><a>Book an experience</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-4">
+              <ul>
+               	<li>EXPERTS</li>
+            		<li><a>Blog</a></li>
+            		<li><a>Testimonials</a></li>
+            		<li><a>FAQs</a></li>
+            	</ul>
+            </div>
+       		</div>
+        </div>
+    	</div>
+			<div class="container">
+				<div class="row bottom-footer text-center-mobile">
+					<div class="col-sm-8">
+						<h6 class="shade-blue">&copy; Copyright 2016 . All Rights Reserved. Terms & Conditions</h6>
+					</div>
+					<div class="col-sm-4 text-right text-center-mobile">
+						<ul class="social-footer">
+							<li><a href="http://www.facebook.com"><img src="img/facebook.png"></a></li>
+							<li><a href="http://www.twitter.com"><img src="img/twitter.png"></a></li>
+							<li><a href="http://www.facebook.com"><img src="img/instagram.png"></a></li>
+							<li><a href="http://www.twitter.com"><img src="img/pinterest.png"></a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="container">
-					<div class="row bottom-footer text-center-mobile">
-						<div class="col-sm-8">
-							<h6 class="shade-blue">&copy; Copyright 2016 . All Rights Reserved. Terms & Conditions</h6>
-						</div>
-						<div class="col-sm-4 text-right text-center-mobile">
-							<ul class="social-footer">
-								<li><a href="http://www.facebook.com"><img src="img/facebook.png"></a></li>
-								<li><a href="http://www.twitter.com"><img src="img/twitter.png"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</footer>
+			</div>
+		</footer>
 			<!-- Scripts -->
 			<script src="js/jquery-1.11.1.min.js"></script>
 			<script src="js/owl.carousel.min.js"></script>
@@ -243,6 +453,37 @@
 			<script src="js/wow.min.js"></script>
 			<script src="js/typewriter.js"></script>
 			<script src="js/jquery.onepagenav.js"></script>
+			<script src="js/moment.min.js"></script>
+			<script src="js/daterangepicker.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
 			<script src="js/main.js"></script>
+			<script type="text/javascript">
+				$(function() {
+
+				  $('input[name="datefilter"]').daterangepicker({
+				      autoUpdateInput: false,
+				      locale: {
+				          cancelLabel: 'Clear'
+				      }
+				  });
+
+				  $('input[name="datefilter"]').on('apply.daterangepicker', function(ev, picker) {
+				      $(this).val(picker.startDate.format('MM/DD/YYYY') + ' - ' + picker.endDate.format('MM/DD/YYYY'));
+				  });
+
+				  $('input[name="datefilter"]').on('cancel.daterangepicker', function(ev, picker) {
+				      $(this).val('');
+				  });
+
+				});
+				$(document).ready(function() {
+					$("#owl-demo").owlCarousel({
+						navigation : true, 
+						slideSpeed : 300,
+						paginationSpeed : 400,
+						singleItem:true
+					});
+				});
+				</script>
 		</body>
 	</html>

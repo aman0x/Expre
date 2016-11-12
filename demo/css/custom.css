@@ -10,6 +10,10 @@
   font-family: bebas;
   src: url(../fonts/bebas.ttf);
 }
+@font-face {
+  font-family: fontawesome;
+  src: url(../fonts/fontawesome-webfont.ttf);
+}
 .margin0{
 	margin:0px !important;
 }
@@ -760,13 +764,32 @@ footer .social-footer li:hover a {
   border:none;
 
 }
+.omb_loginForm .input-group select.form-control{
+	width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #f0f6f8;
+  border:none;
+
+}
+.not-active {
+ pointer-events: none;
+ cursor: default;
+}
+.omb_loginForm select {
+  color: #8ea7b8 !important; 
+
+  option {
+    color: #8ea7b8 !important; 
+  }
+}
+
 .omb_loginForm .input-group textarea.form-control{
 	width: 100%;
   height: 100px;
   border-radius: 4px;
   background-color: #f0f6f8;
   border:none;
-
 }
 .omb_loginForm .input-group a.btn{
 	padding: 10px 15px;
@@ -930,7 +953,20 @@ footer .social-footer li:hover a {
 	border: 2px solid #fff;
 	background: #fff;
 }
-
+.cancelBtn{
+	background-color:#d3d3d3;
+	color: #fff; 
+}
+.applyBtn {
+	background-color:#ffb900;
+	color: #fff;
+	border: 0px !important 
+}
+.applyBtn:hover {
+	background-color:#ffb900;
+	color: #fff;
+	border: 0px !important 
+}
 .btn.btn-submit:focus {
 	font-weight: bold;
 }
@@ -1080,6 +1116,11 @@ footer .social-footer li:hover a {
 }
 
 @media(max-width: 768px) {
+	.hover-intro-block{
+	-webkit-transform: scale(1);
+  transform: scale(1);
+  z-index: 999;    
+	}
 	.nav-mobile{
 		padding: 0px !important;
 		margin: 0px !important;
@@ -1203,6 +1244,7 @@ footer .social-footer li:hover a {
 	width: 50%;
 	color: #fff;
 	font-size: 18px;
+	min-width: 300px;
 	padding: 0px 15px !important;
 }
 
@@ -1327,10 +1369,10 @@ p.orhr{
   }
 /* --------------------filter page  ---------------------*/
 .filter-header {
-  background-image: url("../img/about-us.png");
+  background-image: url("../img/filter-header.png");
   background-repeat: no-repeat;
-  background-position: center;
-  min-height:370px;
+  
+  min-height:200px;
   }
   .filter-view-sort-block .thumbnail{
   	margin-bottom: 0px !important;
@@ -1376,6 +1418,25 @@ p.orhr{
     position: absolute;
     left: -70px;
     top: 45px;
+}
+.filter-page .panel-heading .accordion-toggle:after {
+    color: #ffba00;
+    font-family: 'fontawesome';  
+    content: "\f054";  
+    float: right;                
+}
+.filter-page .panel-heading .accordion-toggle.collapsed:after {
+    color: #ffba00;
+    content: "\f078"; 
+}
+.filter-page .panel-heading{
+	padding: 18px 15px;
+	background: #fff;
+	border: 0px;
+	border-bottom: 1px solid #d3d3d3;
+}
+.filter-page .panel-default{
+	border-color:#fff ;
 }
 /* --------------------login page  ---------------------*/
 .experience-header {
@@ -1472,7 +1533,7 @@ p.header-heading{
 }
 .about-us-content .about-us-text{
 	
-	padding: 20px;
+	padding: 10px;
 }
 .about-us-content .about-us-text h6{
 	color: #ffba00;
