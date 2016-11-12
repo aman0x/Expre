@@ -139,20 +139,3 @@ $(".intro-block").mouseover(function(){
 })
 
 /*----------------------------profile changes -----------------*/
-$(document).ready(function () {
-  var divs = $('body>section');
-  var now = 0;
-  divs.hide().first().show();
-  $(".btn-next-profile").click(function (e) {
-  		$("html, body").animate({ scrollTop: 0 }, 600);
-      divs.eq(now).hide();
-      now = (now + 1 < divs.length) ? now + 1 : 0;
-      divs.eq(now).show(); 
-  });
-  $(".btn-prev-profile").click(function (e) {
-  		$("html, body").animate({ scrollTop: 0 }, 600);
-      divs.eq(now).hide();
-      now = (now > 0) ? now - 1 : divs.length - 1;
-      divs.eq(now).show(); 
-  });
-});

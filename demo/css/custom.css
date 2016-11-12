@@ -1649,3 +1649,15 @@ p.header-heading{
     margin: 5px auto !important;
 
 }
+
+
+/* --------------------login-page---------------------*/
+.owl-carousel .owl-wrapper-outer{
+	overflow: initial;
+}
+.owl-pagination {
+  position: absolute;
+  right: 0;
+  left:0;
+  bottom: 80px;
+}
