@@ -121,9 +121,9 @@ jQuery(function($) {
 		$('#modal1').modal('hide');
 	});
 
-	$(window).on("resize", function() {
+	/*$(window).on("resize", function() {
 		$('.modal:visible').each(centerModal);
-	});
+	});*/
 });
 
 //avtive nav fix
