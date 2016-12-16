@@ -22,7 +22,7 @@
 			<img src="img/loader.gif" alt="Preloader image">
 		</div>
 		<nav class="navbar">
-			<div class="col-xs-12 col-md-12 col-lg-12">
+			<div class="col-xs-12 col-md-12 col-lg-12 nav-mobile">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -36,10 +36,10 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right main-nav">
-						<li><a href="index.html">Book an Experience</a></li>
+						<li><a href="#intro">Book an Experience</a></li>
 						<li><a href="login.html">List an Experience</a></li>
 						<li><a href="about-us.html">About Us</a></li>
-						<li><a href="#pricing">Blog</a></li>
+						<li><a href="description.html">Blog</a></li>
 						<li class="nav-border hidden-xs hidden-sm hidden-md"></li>
 						<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white">Login</a></li>
 						<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white">Sign Up</a></li>
@@ -100,11 +100,11 @@
 									<form class="omb_loginForm " action="" autocomplete="off" method="POST">
 									<div class="col-md-12 col-xs-12">
 										<div class="input-group col-md-12 col-xs-12">
-											<input type="text" class="form-control" name="username" placeholder="Username Or Email">
+											<input type="text" title="Username" data-toggle="tooltip" data-placement="top" class="form-control" name="username" placeholder="Username Or Email">
 										</div>
 										
 										<div class="input-group col-md-12 col-xs-12">
-											<input  type="password" class="form-control" name="password" placeholder="Password">
+											<input  type="password" class="form-control" title="Password" data-toggle="tooltip" data-placement="top" name="password" placeholder="Password">
 										</div>
 										<!-- <span class="help-block">Password error</span> -->
 										<div class="input-group col-md-4 pull-left col-xs-6">
@@ -128,72 +128,92 @@
 					</div>
 				</div>
 			</section>
-			<section class="section section-padded lightbule-bg">
-				<div class="container">
-					<!--<div class="row">
-										<div class="col-md-8 col-md-offset-2 text-center">
-													<p class="orhr"><span> HERE’S A HANDFUL OF MEDIA  WHO HAVE FEATURED US </span> </p>
-										</div>
-					</div>-->
-					<div class="row">
-						<div class="col-md-12  text-center support-list-block">
-							<img src="img/support.png">
-						</div>
+			<section class="section padding0 lightbule-bg">
+		<div class="content-block contact-block graybg" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="margintop30-m15 font-color-slate">Contact</h2>
+            <h6 class="margintop30-m15 font-color-slate">Hey, we are busy building few great things for you but don’t you worry. Write to us or just call us and we will be with you!</h6>
+          </div>
+          <div class="col-md-offset-1 col-md-11 col-xs-12  margintop30-m15">
+            <div class="col-md-6 col-xs-12 contact-info text-center">
+              <h3 class="font-color-slate"><img class ="paddingright15" src="img/mail.png">hello@expre.com</h3>
+            </div>
+            <div class="col-md-6 col-xs-12 contact-info pull-left paddingright15">
+              <h3 class="font-color-slate"><img class ="paddingright15" src="img/call.png">+91 99999 99999</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+			<!--<div class="container">
+				<!--<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+            <p class="orhr"><span> HERE’S A HANDFUL OF MEDIA  WHO HAVE FEATURED US </span> </p>
 					</div>
 				</div>
-			</section>
-			<footer>
-				<div class="container">
-					<div class="row">
-						<div class=" col-md-3">
-							<div class="col-md-3 hidden-xs hidden-sm">
-								<img src="img/logo-active.png">
-								<!-- other tags go here -->
-							</div>
-						</div>
-						<div class="col-md-offset-1 col-md-8 footer-links">
-							<div class="col-md-4">
-								<ul>
-									<li>COMPANY</li>
-									<li><a>Home</a></li>
-									<li><a>Services</a></li>
-									<li><a>How we do it</a></li>
-								</ul>
-								<!-- other tags go here -->
-							</div>
-							<div class="col-md-4">
-								<ul>
-									<li>DISCOVER</li>
-									<li><a>Cysteine Hair Treatment</a></li>
-									<li><a>Moroccon Oil Hair Spa</a></li>
-									<li><a>Novalash Eyelash Extensions</a></li>
-								</ul>
-							</div>
-							<div class="col-md-4">
-								<ul>
-									<li>EXPERTS</li>
-									<li><a>Make-up by Celebrity Stylists</a></li>
-									<li><a>Exclusive Nail Services</a></li>
-									<li><a>Artists</a></li>
-								</ul>
-							</div>
-						</div>
+				<div class="row">
+					<div class="col-md-12  text-center support-list-block">
+            <img src="img/support.png">
 					</div>
 				</div>
-				<div class="container">
-					<div class="row bottom-footer text-center-mobile">
-						<div class="col-sm-8">
-							<h6 class="shade-blue">&copy; Copyright 2016 . All Rights Reserved. Terms & Conditions</h6>
-						</div>
-						<div class="col-sm-4 text-right text-center-mobile">
-							<ul class="social-footer">
-								<li><a href="http://www.facebook.com"><img src="img/facebook.png"></a></li>
-								<li><a href="http://www.twitter.com"><img src="img/twitter.png"></a></li>
-							</ul>
-						</div>
+			</div>-->
+		</section>
+			
+			<footer class="margintop30-m15">
+			<div class="container">
+        <div class="row">
+        	<div class=" col-md-3">
+            <div class="col-md-3 hidden-xs hidden-sm" >
+            		<img src="img/logo-active.png">
+                <!-- other tags go here -->
+            </div>
+          </div>  
+          <div class="col-md-offset-1 col-md-8 footer-links">
+            <div class="col-md-4">
+            	<ul>
+            		<li>COMPANY</li>
+            		<li><a>Home</a></li>
+            		<li><a>Services</a></li>
+            		<li><a>How we do it</a></li>
+            	</ul>
+                <!-- other tags go here -->
+            </div>
+            <div class="col-md-4">
+              <ul>
+            		<li>DISCOVER</li>
+            		<li><a>List an experience</a></li>
+            		<li><a>Book an experience</a></li>
+            	</ul>
+            </div>
+            <div class="col-md-4">
+              <ul>
+               	<li>EXPERTS</li>
+            		<li><a>Blog</a></li>
+            		<li><a>Testimonials</a></li>
+            		<li><a>FAQs</a></li>
+            	</ul>
+            </div>
+       		</div>
+        </div>
+    	</div>
+			<div class="container">
+				<div class="row bottom-footer text-center-mobile">
+					<div class="col-sm-8">
+						<p class="shade-blue copyright-text">&copy; Copyright 2016 . All Rights Reserved. Terms & Conditions</p>
+					</div>
+					<div class="col-sm-4 text-right text-center-mobile">
+						<ul class="social-footer">
+							<li><a href="http://www.facebook.com"><img src="img/facebook.png"></a></li>
+							<li><a href="http://www.twitter.com"><img src="img/twitter.png"></a></li>
+							<li><a href="http://www.facebook.com"><img src="img/instagram.png"></a></li>
+							<li><a href="http://www.twitter.com"><img src="img/pinterest.png"></a></li>
+						</ul>
 					</div>
 				</div>
-			</footer>
+			</div>
+		</footer>
 			<!-- Scripts -->
 			<script src="js/jquery-1.11.1.min.js"></script>
 			<script src="js/owl.carousel.min.js"></script>
@@ -202,5 +222,10 @@
 			<script src="js/typewriter.js"></script>
 			<script src="js/jquery.onepagenav.js"></script>
 			<script src="js/main.js"></script>
+			<script>
+				$(document).ready(function(){
+				    $('[data-toggle="tooltip"]').tooltip(); 
+				});
+			</script>
 		</body>
 	</html>

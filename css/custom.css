@@ -705,7 +705,9 @@ footer .trial-button {
 	overflow: hidden !important;
 	margin: 40px 0;
 }
-
+footer .copyright-text{
+	font-size: 13px;
+}
 
 
 
@@ -770,7 +772,7 @@ footer .social-footer li:hover a {
   border-radius: 4px;
   background-color: #f0f6f8;
   border:none;
-
+  line-height: 50px;
 }
 .omb_loginForm .input-group select.form-control{
 	width: 100%;
@@ -1114,6 +1116,25 @@ footer .social-footer li:hover a {
 	.section {
 		padding: 30px 0;
 	}
+	.remember-me {
+    font-size: 12px !important;
+    padding-top: 4px !important;
+	}	
+	.omb_forgotPwd{
+		margin-top: 10px !important;
+	}
+	.omb_forgotPwd a{
+		font-size: 13px !important;
+	}
+	.omb_loginForm .input-group input.form-control{
+		margin-bottom: 10px !important;
+	}
+	.omb_loginForm .input-group select.form-control{
+		margin-bottom: 10px !important;
+	}
+	.login_form{
+		padding: 0px !important;
+	} 
 }
 
 /* Media Queries */
@@ -1125,6 +1146,10 @@ footer .social-footer li:hover a {
 }
 
 @media(max-width: 768px) {
+	
+	.navbar.navbar-fixed-top{
+		display: none;
+	}
 	.hover-intro-block{
 	-webkit-transform: scale(1);
   transform: scale(1);
@@ -1255,6 +1280,7 @@ footer .social-footer li:hover a {
 	font-size: 18px;
 	min-width: 300px;
 	padding: 0px 15px !important;
+	line-height: 50px;
 }
 
 .top-location {
@@ -1457,8 +1483,8 @@ p.orhr{
 .experience-header {
   background-image: url("../img/experience.png");
   background-repeat: no-repeat;
-  background-position: center;
   min-height:370px;
+  background-size: 100% 370px; 
   }
 
 
@@ -1580,7 +1606,8 @@ p.header-heading{
   font-style: normal;
   font-stretch: normal;
   text-align: left;
-  color: #0f334b;
+  color: #aaa;
+  padding-top: 2px;
 }
 
 .omb_forgotPwd a{   
@@ -1681,9 +1708,11 @@ p.header-heading{
   position: absolute;
   right: 0px;
   top: 0px;
-  content: "\f061";font-family: 'FontAwesome';
+  content: "\f0da";font-family: 'FontAwesome';
+  color: #fff;
 }
 .owl-prev {
+	color: #fff;
 	position: absolute;
   left: 0px;
   top: 0px;
@@ -1691,15 +1720,20 @@ p.header-heading{
 }
 .owl-next:after {
 	font-family: 'FontAwesome';
- 	content: "\f061";
- 	font-size: 25px;
- 	color: #d3d3d3;
+ 	content: "\f105";
+ 	font-size: 24px;
+ 	color: #fff;
 }
 .owl-prev:after {
 	font-family: 'FontAwesome';
- 	content: "\f060";
- 	font-size: 25px;
- 	color: #d3d3d3;
+ 	content: "\f104";
+ 	font-size:24px;
+ 	color: #fff;
+ 	opacity: 1;
+}
+.owl-theme .owl-controls .owl-buttons div{
+	padding: 3px 16px;
+    background-color: #ffb900;
 }
 
 /*---------chosen customize ------------*/
@@ -1760,3 +1794,27 @@ p.header-heading{
 .list-style-none{
 	list-style: none;
 }
+
+::-webkit-input-placeholder {
+    line-height:20px;
+    text-overflow: ellipsis; 
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   line-height:20px;
+    text-overflow: ellipsis; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   
+    line-height:20px;
+    text-overflow: ellipsis;  
+}
+
+:-ms-input-placeholder {  
+   
+    line-height:20px;
+    text-overflow: ellipsis;  
+}
+
+/*-- tooltip customize --- */
